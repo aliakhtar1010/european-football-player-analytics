@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.pyc
+
+# Local environments and editor settings
+.venv/
+.vscode/
+
+# Raw and generated data
+data/raw/
+data/processed/
+
+# Power BI temporary files
+*.pbit.tmp
