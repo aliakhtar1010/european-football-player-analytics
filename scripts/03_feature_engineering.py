@@ -92,7 +92,7 @@ def engineer_features(input_file: Path) -> pd.DataFrame:
     df["xG_per_90"] = (df["xG"] / minutes) * 90
 
     # Expected assisted-goal creation normalized for playing time.
-    df["xAG_per_90"] = (df["xAG"] / minutes) * 90
+    df["xAG_per_90"] = (df["xAG"] / minutes) * 90   
 
     # Shooting volume per 90 minutes.
     df["Shots_per_90"] = (df["Sh"] / minutes) * 90
