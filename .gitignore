@@ -11,3 +11,6 @@ data/raw/
 
 # Power BI temporary files
 *.pbit.tmp
+
+# Generated SQLite database
+*.db
